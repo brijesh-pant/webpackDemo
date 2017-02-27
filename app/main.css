@@ -1,0 +1,7 @@
+body {
+  background: cornsilk;
+  background-image: url('../assets/images/logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
