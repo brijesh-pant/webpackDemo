@@ -34,6 +34,7 @@ const common = merge([
       }),
     ],
   },
+  parts.loadJavaScript({ include: PATHS.app}),
   parts.loadCSS({ use: ['style-loader', 'css-loader', parts.autoPrefix()]}),
   parts.loadImages({
     name: '[name].[hash:8].[ext]',
